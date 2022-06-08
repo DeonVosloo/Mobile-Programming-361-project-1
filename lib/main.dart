@@ -134,6 +134,7 @@ class MyApp extends StatelessWidget
                      const Text("WORK EXPERIENCE", style: TextStyle(fontSize: 12, fontFamily: "GoodTimes"),),
                      Text("Front End Web Developer", style: GoogleFonts.lato(fontSize: 12, color: Colors.black54),),
                      Text("License Plate Recognition,", style: GoogleFonts.lato(fontSize: 12, color: Colors.black54),),
+                      Text("Freelance Web Developer,", style: GoogleFonts.lato(fontSize: 12, color: Colors.black54),),
                    ],
                  )),
                ],
@@ -158,11 +159,11 @@ class MyApp extends StatelessWidget
 
                  child: Column
                    (
-                   mainAxisAlignment: MainAxisAlignment.center,
-                   crossAxisAlignment: CrossAxisAlignment.center,
+                   mainAxisAlignment: MainAxisAlignment.start,
+                   crossAxisAlignment: CrossAxisAlignment.start,
                    children:
                    [
-                     const Text("AREA OF EXPERTISE", style: TextStyle(fontSize: 18, fontFamily: "GoodTimes"),),
+                     const Text("AREA OF EXPERTISE", style: TextStyle(fontSize: 18, fontFamily: "GoodTimes"),textAlign: TextAlign.center,),
 
                      Padding
                        (
@@ -176,6 +177,7 @@ class MyApp extends StatelessWidget
                        padding: const EdgeInsets.fromLTRB(15, 4, 15, 2),
                        child: Text("OS: Ubuntu Linux, Microsoft Windows.",
                          style: GoogleFonts.lato(fontSize: 12, color: Colors.black54),
+                         textAlign: TextAlign.start,
                        ),
                      ),
 
@@ -184,6 +186,7 @@ class MyApp extends StatelessWidget
                        padding: const EdgeInsets.fromLTRB(15, 4, 15, 2),
                        child: Text("Digital Image Software: Adobe Photoshop.",
                          style: GoogleFonts.lato(fontSize: 12, color: Colors.black54),
+                         textAlign: TextAlign.start,
                        ),
                      ),
 
