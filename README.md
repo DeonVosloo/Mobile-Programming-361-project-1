@@ -1,4 +1,4 @@
-# project1
+# project 1 for Mobile Programming 361
 
 A new Flutter project.
 
